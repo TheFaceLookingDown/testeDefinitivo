@@ -234,7 +234,7 @@ pwInput.addEventListener('keydown', (e)=>{
 eyeBtn.addEventListener('click', ()=>{
   const type = pwInput.type === 'password' ? 'text' : 'password';
   pwInput.type = type;
-  eyeBtn.textContent = type === 'password' ? 'seek' : 'hide';
+  eyeBtn.textContent = type === 'password' ? '👁️' : '🙈';
   pwInput.focus();
 });
 
